@@ -5,7 +5,7 @@ Created on Mon Apr 24 18:50:15 2023
 @author: a863900
 """
 import streamlit as st
-import streamlit_aggrid as st_aggrid
+import streamlit-aggrid as st_aggrid
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 import numpy as np
 import pytz
