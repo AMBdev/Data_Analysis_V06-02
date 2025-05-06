@@ -4,8 +4,8 @@ Created on Mon Apr 24 18:50:15 2023
 
 @author: a863900
 """
-
-from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
+import streamlit as st
+from streamlit_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 import numpy as np
 import pytz
 from pytz import timezone
@@ -19,7 +19,6 @@ from tkinter import filedialog as fd
 from tkinter import *
 import pathlib
 import os
-import streamlit as st
 import sys
 import gc
 
